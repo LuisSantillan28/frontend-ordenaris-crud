@@ -4,6 +4,9 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppComponent } from './app.component';
 import { TablesComponent } from './tables/tables.component';
 import { FormsComponent } from './forms/forms.component';
+import { AppRoutingModule } from './app-routing.module';
+import { EmpleadoComponent } from './empleado/empleado.component';
+import { AreaComponent } from './area/area.component';
 
 
 
@@ -11,10 +14,13 @@ import { FormsComponent } from './forms/forms.component';
   declarations: [
     AppComponent,
     TablesComponent,
-    FormsComponent
+    FormsComponent,
+    EmpleadoComponent,
+    AreaComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
